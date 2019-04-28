@@ -5,4 +5,4 @@
 This is app code as part of the example showing deployment strategy for an internet facing single page application using an API Gateway and OAuth2 available at https://cookbook.azureedge.net.
 
 
-![diagram](public/images/arch.svg)
+![diagram](public/image/arch.svg)
