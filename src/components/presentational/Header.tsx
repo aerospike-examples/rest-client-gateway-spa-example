@@ -1,13 +1,11 @@
 import { AppBar, Button, IconButton, Toolbar, Typography } from '@material-ui/core';
-import Fastfood from '@material-ui/icons/Fastfood';
 import { css } from 'emotion';
 import * as React from 'react';
 import { Link, LinkProps } from 'react-router-dom';
 import { auth } from '../../core/Auth';
 import { history } from '../../core/store';
+import { ReactComponent as Curry } from '../../curry.svg';
 
-// import theme from '../../core/theme';
-// import { IconBox } from './IconBox';
 
 export interface HeaderProps {
     title?: string;
@@ -45,7 +43,7 @@ export default class Header extends React.PureComponent<HeaderProps> {
             <AppBar position="static" color="primary">
                 <Toolbar>
                     <IconButton color="inherit" aria-label="Home" component={LinkHome}>
-                        <Fastfood />
+                        <Curry height="1em" width="1em"/>
                     </IconButton>
                     <Typography
                         variant="title"

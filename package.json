@@ -40,8 +40,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "startaz": "REACT_APP_API_BASE=http://asrest.azure-api.net/bumbai yarn start",
-    "buildaz": "REACT_APP_API_BASE=https://asrest.azure-api.net/bumbai yarn build",
+    "startexternal": "REACT_APP_API_BASE=http://asrest.azure-api.net/bumbai yarn start",
+    "buildexternal": "REACT_APP_API_BASE=https://asrest.azure-api.net/bumbai yarn build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
