@@ -43,7 +43,7 @@ export default class Header extends React.PureComponent<HeaderProps> {
             <AppBar position="static" color="primary">
                 <Toolbar>
                     <IconButton color="inherit" aria-label="Home" component={LinkHome}>
-                        <Curry height="1em" width="1em"/>
+                        <Curry height="2em" width="2em"/>
                     </IconButton>
                     <Typography
                         variant="title"
