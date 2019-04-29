@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^3.9.3",
-    "@material-ui/icons": "^3.0.2",
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.10",
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
     "auth0-js": "^9.10.2",
     "autobind-decorator": "^2.4.0",
     "babel-plugin-emotion": "^10.0.9",
@@ -45,6 +45,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -73,6 +78,8 @@
     "@types/react-router-dom": "^4.3.1",
     "@types/redux-thunk": "^2.1.0",
     "@types/swagger-schema-official": "^2.0.10",
+    "husky": "^2.1.0",
+    "pretty-quick": "^1.10.0",
     "ts-swagger-gen": "https://github.com/citrusleaf/ts-redux-swagger-gen"
   }
 }

@@ -1,14 +1,14 @@
-import styled from '@emotion/styled';
-import theme from '../../core/theme';
+import styled from "@emotion/styled";
+import theme from "../../core/theme";
 
-export const Anchor = styled('a')`
-    color: ${theme.link.text};
-    cursor: pointer;
-    text-decoration: underline;
-    &:hover {
-        color: ${theme.link.hover};
-    }
-    &:active {
-        color: ${theme.link.active};
-    }
+export const Anchor = styled("a")`
+  color: ${theme.link.text};
+  cursor: pointer;
+  text-decoration: underline;
+  &:hover {
+    color: ${theme.link.hover};
+  }
+  &:active {
+    color: ${theme.link.active};
+  }
 `;

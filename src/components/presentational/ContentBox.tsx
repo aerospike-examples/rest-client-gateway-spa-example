@@ -1,8 +1,8 @@
-import styled from '@emotion/styled';
-import { Grid } from '@material-ui/core';
-import { GridProps } from '@material-ui/core/Grid';
-import * as React from 'react';
-import theme from '../../core/theme';
+import styled from "@emotion/styled";
+import { Grid } from "@material-ui/core";
+import { GridProps } from "@material-ui/core/Grid";
+import * as React from "react";
+import theme from "../../core/theme";
 
 export const ContentBoxWrapper = styled(Grid)`
     /* border: 1px solid ${theme.colors.red}; */
@@ -31,12 +31,12 @@ export const ContentBoxWrapper = styled(Grid)`
 `;
 
 export function ContentBox(props: GridProps) {
-    return (
-        <div>{props.children}</div>
-        // <ContentBoxWrapper>
-        //     <Grid container direction="column" className={css({ zIndex: 1, minHeight: '50vh' })}>
-        //         {props.children}
-        //     </Grid>
-        // </ContentBoxWrapper>
-    );
+  return (
+    <div>{props.children}</div>
+    // <ContentBoxWrapper>
+    //     <Grid container direction="column" className={css({ zIndex: 1, minHeight: '50vh' })}>
+    //         {props.children}
+    //     </Grid>
+    // </ContentBoxWrapper>
+  );
 }

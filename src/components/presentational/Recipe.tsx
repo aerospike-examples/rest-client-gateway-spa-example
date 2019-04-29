@@ -1,11 +1,11 @@
 export class Recipe {
-    constructor (
+  constructor(
     public name?: string,
     public description?: string,
     public ingredients?: Ingredient[]
-    ){}
+  ) {}
 }
 export interface Ingredient {
-    amount: string;
-    name: string;
+  amount: string;
+  name: string;
 }
