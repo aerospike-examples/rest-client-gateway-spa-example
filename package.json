@@ -19,7 +19,7 @@
     "git": "^0.1.5",
     "history": "^4.9.0",
     "immutable": "^3.8.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "path": "^0.12.7",
     "portable-fetch": "^3.0.0",
     "prettier": "^1.17.0",
