@@ -23,7 +23,7 @@ const palette: PaletteOptions = {
 const auth = new Auth();
 
 const handleAuthentication = (props: RouteComponentProps<{}>) => {
-  if (/access_token|id_token|error/.test(location.hash)) {
+  if (/access_token|id_token|error/.test(window.location.hash)) {
     auth.handleAuthentication();
   }
   return <div>"Loading"</div>;
